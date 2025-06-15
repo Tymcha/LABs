@@ -6,11 +6,10 @@ const path = require("path");
 const app = express();
 
 const dbConfig = {
-  host: "https://maglev.proxy.rlwy.net",
+  host: "maglev.proxy.rlwy.net",
   user: "root",
   password: "JOsQoIHuxgprzEqncQezYaVSLovPCImV",
   database: "railway",
-  charset: "utf8mb4",
   port: 26671,
 };
 
